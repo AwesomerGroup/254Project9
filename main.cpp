@@ -13,9 +13,6 @@ int main(){
 	cout << "OUTPUT TEXT" << endl;
 	a=multiplythis.multiply(x);
 	cout <<a <<endl;
-
-	
-	
 	cout << multiplythis.multiply(x) << endl;
 
 	return 0;
