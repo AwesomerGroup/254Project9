@@ -7,6 +7,7 @@ int main(){
 	
 	x = 2 + 2;
 	cout << x << endl;
+	cout << "OUTPUT TEXT" ;
 	
 	return 0;
 }
