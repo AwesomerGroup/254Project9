@@ -8,7 +8,7 @@ int main(){
 	int a=0;
 	x = 2 + 2;
 	cout << x << endl;
-	cout << "OUTPUT TEXT";
+	cout << "OUTPUT TEXT" << endl;
 	a=multiply(x);
 	cout <<a <<endl;
 
