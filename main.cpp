@@ -5,9 +5,9 @@ using namespace std;
 
 int main(){	
 	Mult multiplythis;
-
 	int x=0;
 	int a=0;
+	
 	x = 2 + 2;
 	cout << x << endl;
 	cout << "OUTPUT TEXT" << endl;
