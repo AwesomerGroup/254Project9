@@ -5,7 +5,12 @@
 
 using namespace std;
 
-int multiply(int x)
+class Mult{
+public:
+	int multiply(int x);	
+};
+
+int Mult::multiply(int x)
 {
 	x = x * 100;
 	return x;

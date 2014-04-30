@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main(){
+int main(){	
 	int x=0;
 	int a=0;
 	x = 2 + 2;
@@ -11,6 +11,10 @@ int main(){
 	cout << "OUTPUT TEXT";
 	a=multiply(x);
 	cout <<a <<endl;
+
+	Mult multiplythis;
+	
+	cout << multiplythis.multiply(x) << endl;
 
 	return 0;
 }
