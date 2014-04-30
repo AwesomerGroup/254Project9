@@ -1,5 +1,5 @@
-#ifndef Functionsh
-#define Functionsh
+#ifndef function_H
+#define function_H
 
 #include <iostream>
 
@@ -7,7 +7,8 @@ using namespace std;
 
 int multiply(int x)
 {
-	return x*2;
+	x = x * 100;
+	return x;
 }
 
 #endif
