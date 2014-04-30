@@ -7,7 +7,9 @@ using namespace std;
 
 class Mult{
 public:
-	int multiply(int x);	
+	int multiply(int x);
+private:
+	int x;	
 };
 
 int Mult::multiply(int x)

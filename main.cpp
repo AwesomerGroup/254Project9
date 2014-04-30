@@ -4,15 +4,17 @@
 using namespace std;
 
 int main(){	
+	Mult multiplythis;
+
 	int x=0;
 	int a=0;
 	x = 2 + 2;
 	cout << x << endl;
 	cout << "OUTPUT TEXT" << endl;
-	a=multiply(x);
+	a=multiplythis.multiply(x);
 	cout <<a <<endl;
 
-	Mult multiplythis;
+	
 	
 	cout << multiplythis.multiply(x) << endl;
 
